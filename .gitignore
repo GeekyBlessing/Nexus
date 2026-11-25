@@ -1,0 +1,13 @@
+# Python virtual environment (huge, and specific to your Mac)
+.venv/
+
+# Python cache files (generated automatically)
+__pycache__/
+*.pyc
+
+# Secrets: never commit these
+.env
+*.tfvars
+
+# Mac system files
+.DS_Store
